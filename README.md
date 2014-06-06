@@ -50,15 +50,10 @@ Open your application configuration in `protected/config/main.php` and modify it
 // main configuration file
 return array(
 	...
-    // preloading components
-    'preload'        => array(
-        ...
-        'SemanticYii',
-    ),
     // path aliases
     'aliases'    => array(
         ...
-        // Everzet JadePHP path alias
+        // Everzet jade.php path alias
         'Jade' => realpath(__DIR__ . '/../vendor/Everzet/Jade'),
     ),
     // application components
